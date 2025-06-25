@@ -23,11 +23,11 @@ The preprocessing pipeline transforms raw audio into meaningful numerical repres
 1. Audio Loading & Normalization <br>
    - Loaded audio files using librosa <br>
    - Standardized sampling rates and durations <br>
-   - Appled noise reduction techniques<br>
+   - Applied noise reduction techniques<br>
 
 2. EDA <br>
    - Observed MelSpectogram <br>
-   - Studies the effect of noise, stretch, shift and pitch on a random file. <br>
+   - Studied the effect of noise, stretch, shift and pitch on a random file. <br>
 
 3. Feature Engineering <br>
    - MFCC (Mel-Frequency Cepstral Coefficients): Captures spectral characteristics <br>
@@ -47,7 +47,7 @@ The preprocessing pipeline transforms raw audio into meaningful numerical repres
    - One Hot Encoding <br>
 
 7. Missing Values <br>
-   - Filled missing values as 0.
+   - Filled missing values with 0.
 
 ## Model Architecture <br>
 The model employs a sophisticated 1D Convolutional Neural Network optimized for sequential audio data: <br>
@@ -81,7 +81,7 @@ Input Layer: (2376 features, 1 channel)
 
 ## Performance Metrics
 <br>
-### Model Accuracy
+Model Accuracy
 <br>
 The trained model demonstrates excellent performance across all emotional categories:<br>
 
@@ -114,7 +114,7 @@ The model shows clear learning progression with strategic learning rate reductio
 ## Key Insights
 <br>
 
-Strengths:* <br>
+Strengths: <br>
 - Exceptional training accuracy indicating strong feature learning capability <br>
 - Robust architecture with proper regularization techniques <br>
 - Efficient parameter utilization with strategic layer design <br>
